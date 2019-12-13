@@ -1,0 +1,110 @@
+<html>
+<head>
+   <title>648WORK</title>
+   <link href="css/home.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+
+    <div id="top-bar">
+    <div id="top-bar1">
+      <div id="logo">
+	    <img src="images/logo2.png" width="60">
+	  </div>
+	  
+	  <div id="navigation-bar">
+	    <ul id="navi">
+		  <li id="home"><a id="link" href="">Home</a></li>
+		  <li id="about"><a id="link" href="">About Us</a></li>
+		  <li id="services"><a id="link" href="">Our Services</a></li>
+		  <li id="contact"><a id="link" href="">Contact Us</a></li>
+		</ul>
+	  </div>
+	</div>
+	<hr/>
+	</div>
+	
+	<div id="body1">
+	<div id="body2">
+	 
+	 <div id="slide">
+	   
+      <script>
+	     var i = 0; // Start point
+	     var images = [];
+	     var time = 1500;
+
+	     // Image List
+	     images[0] = 'images/pix1.png';
+	     images[1] = 'images/pix2.png';
+	     images[2] = 'images/pix3.png';
+	     images[3] = 'images/pix4.png';
+	     images[4] = 'images/pic2.png';
+
+	     // Change Image
+	    function changeImg(){
+		document.slide.src = images[i];
+
+		if(i < images.length - 1){
+			i++;
+		} else {
+			i = 0;
+		}
+
+		setTimeout("changeImg()", time);
+	   }
+
+	   window.onload = changeImg;
+
+     </script>
+
+     <img id="pic1" name="slide" width="300" >
+
+    </div>
+	
+	<div id="logo1"><img src="images/logo2.png" width="250"/></div>
+	<div id="relax">RELAX, IT'S DONE</div>
+	
+	<div id="join">Join With Us to get New Experience in the cleaning service</div>
+	  
+	</div>
+	</div>
+	
+	<div id="background1">
+	<div id="background2">
+	
+	   <div id="our-service">Our Services</div>
+	
+	   <div id="row"></div>
+	
+	   <div id="image-content">
+	     <div id="first1">
+	      <div id="first-image"><img id="first-image1" src="images/sofa-cleaning.png" width="500" height="300"></div>
+		  <div id="content1">Sofa Cleaning</div>
+		 </div>
+		 
+		 <div id="second2">
+	      <div id="second-image"><img id="second-image1" src="images/carpet-cleaning.jpg" width="500" height="300"></div>
+		  <div id="content2">Carpet Cleaning</div>
+		 </div>
+	   
+	
+	   <div id="theird3">
+	      <div id="theird-image"><img id="theird-image1" src="images/office-chair-cleaning.jpg" width="500" height="300"></div>
+		  <div id="content3">Office Chair Cleaning</div>
+		 </div>
+	   
+	   <div id="fourth4">
+	      <div id="fourth-image"><img id="fourth-image1" src="images/Grout-and-Tile-Cleaning.jpg" width="500" height="300"></div>
+		  <div id="content4">Tile and Grout Cleaning</div>
+		 </div>
+	   </div>
+	   
+	   <a id="link2" href="services.html"><div id="view-more">View More</div></a>
+	   
+	  </div>
+	
+	</div>		
+
+</body>
+</html>
