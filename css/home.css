@@ -131,12 +131,12 @@
 
 #background1{
 	width:100%;
-	height:950px;
+	height:1800px;
 }
 
 #background2{
 	width:1200px;
-	height:950px;
+	height:1800px;
 	margin-top:70px;
 }
 
@@ -323,4 +323,207 @@
 
 #view-more:hover{
 	color:white;
+}
+
+/*Our mission*/
+
+#our-mission{
+	width:400px;
+	height:80px;
+    font-family:Footlight MT Light;
+    font-size:70px;
+	margin-left:550px;
+	margin-top:50px;
+	float:left;
+}
+
+#row{
+	height:1px;
+	width:1060px;
+    background:black;
+	margin-left:200px;
+	float:left;
+}
+
+#mission{
+	width:700px;
+	height:40px;
+    font-family:Sitka Subheading;
+    font-size:25px;
+	margin-left:400px;
+	margin-top:50px;
+	float:left;
+	text-align:center;
+	color:#697278;
+}
+
+/*Our vision*/
+
+#our-vision{
+	width:400px;
+	height:80px;
+    font-family:Footlight MT Light;
+    font-size:70px;
+	margin-left:550px;
+	margin-top:200px;
+	float:left;
+}
+
+#row{
+	height:1px;
+	width:1060px;
+    background:black;
+	margin-left:200px;
+	float:left;
+}
+
+#vision{
+	width:700px;
+	height:40px;
+    font-family:Sitka Subheading;
+    font-size:25px;
+	margin-left:400px;
+	margin-top:50px;
+	float:left;
+	text-align:center;
+	color:#697278;
+}
+
+/*Footer Start*/
+
+#footer{
+	width:100%;
+	height:200px;
+	background:#697278;
+	float:left;
+}
+
+#footer1{
+	width:1200px;
+	height:200px;
+	margin:auto;
+}
+
+/*First Part of the footer*/
+
+#first-bar{
+	width:1200px;
+	height:200px;
+	float:left;
+}
+
+/*Address start*/
+
+#contact-information{
+	width:250px;
+	height:150px;
+	margin-top:30px;
+	margin-left:60px;
+	float:left;
+}
+
+#address{
+	width:250px;
+	height:50px;
+	font-family:Footlight MT Light;
+	font-size:30px;
+	margin-top:20px;
+	color:white;
+	float:left;
+}
+
+#address1{
+	width:250px;
+	height:100px;
+	font-family:Maiandra GD;
+	font-size:15px;
+	float:left;
+}
+
+/*Services Start*/
+
+#services1{
+	width:420px;
+	height:180px;
+	float:left;
+	margin-top:20px;
+	margin-left:70px;
+}
+
+#services11{
+	width:350px;
+	height:50px;
+	font-family:Footlight MT Light;
+	font-size:30px;
+	margin-top:30px;
+	color:white;
+	float:left;
+}
+
+#services2{
+	width:400px;
+	height:60px;
+	font-family:Maiandra GD;
+	font-size:15px;
+	float:left;
+}
+
+#service1, #service2, #service3, #service4, #service5, #service6{
+	width:200px;
+	height:20px;
+	float:left;
+}
+
+#link1{
+	text-decoration:none;
+	color:black;
+}
+
+#link1:hover{
+	color:#a6b1b9;
+}
+
+/*Contact Number Information Start*/
+
+#contact-information1{
+	width:250px;
+	height:150px;
+	margin-top:30px;
+	margin-left:100px;
+	float:left;
+}
+
+#contact-number{
+	width:250px;
+	height:50px;
+	font-family:Footlight MT Light;
+	font-size:30px;
+	margin-top:20px;
+	color:white;
+	float:left;
+}
+
+#contact-number1{
+	width:250px;
+	height:80px;
+	font-family:Maiandra GD;
+	font-size:15px;
+	float:left;
+}
+
+/*All Right Reserved Start*/
+
+#second-row{
+	width:100%;
+	height:40px;
+	background:#697278;
+	float:left;
+}
+
+#second-row1{
+	width:1200px;
+	height:30px;
+	margin:auto;
+	text-align:center;
+	margin-top:10px;
 }
